@@ -1,0 +1,16 @@
+.posTxt{
+    display: flex;
+    justify-content: center;
+}
+.txtFooter{
+    color: white;
+}
+
+
+.footerPos{
+    padding: 2em 2em 2em 2em;
+     background-color: var(--1-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

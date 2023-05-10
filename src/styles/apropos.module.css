@@ -1,0 +1,66 @@
+.dotEclt {
+    display: flex;
+    font-size: 2em;
+
+    gap: 0.5em;
+   align-items: center;
+}
+
+.animate {
+    font-size: 2em;
+    animation: eclmt 1s forwards;
+    margin-bottom: 18px;
+}
+
+@keyframes eclmt {
+    0% {
+    
+            transform: scale(0);
+        }
+    
+    
+    
+        100% {
+            transform: scale(1);
+    
+        }
+}
+
+
+.textPart{
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius :1em;
+    box-shadow: 1px 1px 2px;
+    margin: 1em;
+    animation: eclmt 2s forwards;
+    padding: 1em;
+    font-size: 1.3em;
+    transform: scale(0);
+}
+
+.textPart:nth-child(6) {
+    animation-delay: 500ms;
+}
+
+.textPart:nth-child(5) {
+    animation-delay: 800ms;
+}
+
+.textPart:nth-child(4) {
+    animation-delay: 1000ms;
+}
+
+.textPart:nth-child(3) {
+    animation-delay: 1200ms;
+}
+
+.textPart:nth-child(2) {
+    animation-delay: 1400ms;
+}
+
+h1{
+    animation: eclmt 2s forwards;
+        padding: 1em;
+        font-size: 2em;
+        transform: scale(0);
+}

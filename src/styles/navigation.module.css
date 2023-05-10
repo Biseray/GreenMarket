@@ -1,0 +1,32 @@
+.banner{
+    background-color: var(--2-color);
+    display: flex;
+    justify-content: center;
+    margin: -1em 0em 0em 0em;
+}
+
+.posNav{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin: 1em 0em 1em 0em;
+}
+
+.navBarLink a {
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: none;
+
+}
+
+.logo {width: 5em;}
+
+.navBarLink{
+
+    display: flex;
+    flex-direction: row;
+        gap: 1em;
+}

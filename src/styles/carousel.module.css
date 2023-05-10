@@ -1,0 +1,98 @@
+.posCarousel {
+
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    
+display: flex;
+align-items: center;
+
+
+}
+
+.test{
+    z-index: 999;
+    width: 1000px;
+}
+.img {
+    display: none;
+    transform: scale(-50% -50%);
+    transition: all 1s ease;
+}
+
+.img.active {
+    transform: scale(-50% -50%);
+    display: block;
+    
+}
+
+.containerCarousel {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+
+
+
+
+.posFleche {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fleche {
+
+    background-color: var(--3-color);
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    height: 2em;
+    color: rgba(0, 0, 0, 0.781);
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+    .numberSlide {
+        display: none;
+    }
+
+  
+
+    .containerCarousel {
+
+
+        height: 400px;
+
+    }
+
+
+
+    .posCarousel {
+        height: 100px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .containerCarousel {
+        height: 250px;
+
+    }
+
+
+}
