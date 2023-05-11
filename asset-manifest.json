@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GreenMarket/static/css/main.be86ee35.css",
+    "main.js": "/GreenMarket/static/js/main.b946dbb2.js",
+    "index.html": "/GreenMarket/index.html",
+    "main.be86ee35.css.map": "/GreenMarket/static/css/main.be86ee35.css.map",
+    "main.b946dbb2.js.map": "/GreenMarket/static/js/main.b946dbb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be86ee35.css",
+    "static/js/main.b946dbb2.js"
+  ]
+}
