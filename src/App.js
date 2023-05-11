@@ -12,7 +12,7 @@ import Confirmation from "./pages/confirmation/index";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/GreenMarket" element={<BaseLayout />} errorElement={<Error404 />}>
-    <Route path="/GreenMarket/" element={<Home />} loader={PlantLoader} />
+    <Route index element={<Home />} loader={PlantLoader} />
     <Route path="/GreenMarket/apropos" element={<Apropos />} />
     <Route path="/GreenMarket/shop" element={<Shop />} loader={dataPlant} />
     <Route path="/GreenMarket/Produit/:id" element={<Produit />} loader={productLoader} />
