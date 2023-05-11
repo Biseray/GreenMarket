@@ -58,7 +58,7 @@
     animation-delay: 1400ms;
 }
 
-h1{
+.titlePresentation{
     animation: eclmt 2s forwards;
         padding: 1em;
         font-size: 2em;

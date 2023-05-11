@@ -10,9 +10,15 @@ align-items: center;
 
 }
 
-.test{
-    z-index: 999;
-    width: 1000px;
+.btnProduitCrsl{
+    background-color: var(--2-color);
+    cursor: pointer;
+    border: none;
+    padding: 0.6em;
+    border-radius:2em;
+
+    font-size: 14px;
+    box-shadow: 1px 1px  black, 1px 0 2px black ;
 }
 .img {
     display: none;
@@ -61,6 +67,18 @@ align-items: center;
 
 }
 
+
+.posBouton{
+z-index: 999;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--3-color);
+    padding-top:5px ;
+    
+}
 
 
 

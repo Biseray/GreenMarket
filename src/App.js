@@ -8,7 +8,7 @@ import "../src/index.css"
 import Shop, { dataPlant } from "./pages/shop/index"
 import Produit, { productLoader } from "./pages/produit"
 import Panier from "./pages/panier/index"
-
+import Confirmation from "./pages/confirmation/index";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/GreenMarket" element={<BaseLayout />} errorElement={<Error404 />}>
@@ -17,6 +17,7 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path="/GreenMarket/shop" element={<Shop />} loader={dataPlant} />
     <Route path="/GreenMarket/Produit/:id" element={<Produit />} loader={productLoader} />
     <Route path="/GreenMarket/Panier" element={<Panier />} /> 
+    <Route path="/GreenMarket/confirmation" element={<Confirmation />} /> 
   </Route>
 ))
 

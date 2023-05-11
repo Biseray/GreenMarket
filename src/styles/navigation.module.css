@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     margin: -1em 0em 0em 0em;
+    padding: 2em 0em 1em   0em;
 }
 
 .posNav{
@@ -15,18 +16,34 @@
 }
 
 .navBarLink a {
-    font-size: 1em;
+    font-size: 1.3em;
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: none;
 
 }
 
-.logo {width: 5em;}
+.logo {width: 3.8em;
+}
 
 .navBarLink{
 
     display: flex;
     flex-direction: row;
         gap: 1em;
+}
+
+
+.posLogo{
+    display: flex;
+     flex-direction: row;
+    align-items: flex-end;
+
+}
+
+
+.title{
+    font-size: 2.8em;
+    padding: 0em;
+    margin: 0em;
 }

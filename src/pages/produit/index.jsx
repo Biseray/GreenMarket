@@ -54,15 +54,24 @@ updatedCart[existingProductIndex].quantity += parseInt(value);
 
   
   return (
-    <div>
-      {dataProduct.name}
+    <div className={style.containerDetailProduct}>
+   
+      <h2 className={style.name}>{dataProduct.name}</h2>  
+      <div className={style.posDescription}>
       <div className={style.PosImg}>
         <img src={dataProduct.imgUrl} alt="" className={style.img} />
       </div>
-      <div>{dataProduct.price} €</div>
-      <input id="number" type="number" value={value} onChange={handleChange} />
-      <button onClick={handleClickAcheter}> Acheter ! </button>
-      {console.log(value)}
+     <div className={style.DescriptionInfo}>
+          <div className={style.price}>Prix : {dataProduct.price} €</div>
+          <div className={style.SelectionPos}>
+            <input id="number" type="number" value={value}  className={style.number} onChange={handleChange} />
+            <button  className={style.btnBuy} onClick={handleClickAcheter}> Acheter ! </button>
+          </div>
+          
+          <div className={style.descptn}> {dataProduct.description }</div>
+          </div>
+    
+        </div>
     </div>
   );
 }

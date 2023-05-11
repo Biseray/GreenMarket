@@ -3,7 +3,7 @@ import style from "../../styles/apropos.module.css"
 function Apropos() {
   return (
     <div>
-     <h1> 
+     <h1 className={style.titlePresentation }> 
 Bienvenue sur notre site de plantes en ligne ! Nous sommes une entreprise spécialisée dans la vente de plantes artificielles haut de gamme pour la décoration intérieure et extérieure.</h1>
     <div className={style.textPart}>Notre gamme de plantes artificielles est soigneusement sélectionnée pour répondre à tous les goûts et à tous les styles de décoration. Nous proposons des plantes de différentes tailles, formes et couleurs pour s'adapter à tous les espaces de vie, qu'il s'agisse d'un salon, d'une chambre à coucher, d'un bureau ou d'un jardin.</div>
     <div className={style.textPart}>Toutes nos plantes sont fabriquées à partir de matériaux de haute qualité et sont conçues pour durer. Elles sont également faciles à entretenir et ne nécessitent pas d'eau, de lumière ou de soins particuliers. C'est l'idéal pour ceux qui n'ont pas la main verte ou qui n'ont pas le temps de s'occuper de plantes vivantes.</div>

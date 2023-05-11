@@ -7,8 +7,9 @@ export default function Navigation() {
     return (
         <div className={style.banner}> 
         <div className={style.posNav}>
-            <div >
-                    <img src={logo} className={style.logo } alt="logo" />
+            <div className={style.posLogo} >
+                    <img src={logo} className={style.logo} alt="logo" />
+                    <h1 className={style.title}>GreenMarket</h1>
             </div>
             <div>
                 
